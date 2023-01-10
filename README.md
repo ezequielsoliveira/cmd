@@ -9,13 +9,13 @@ Lista de comando úteis.
   - ```git config user.email "95730033+EzequielSOliveira@users.noreply.github.com"```
 - Clonar repositório git;
  - ```git clone git@github.com:EzequielSOliveira/temp.git```
-- Excluir uma branch.
+- Excluir uma branch;
   - ```git branch --delete branch_name```
-- Restaurar o repositório a partir de um commit específico
+- Restaurar o repositório a partir de um commit específico;
   - ```git reset --hard 1dcd88d2248d990a6dbeb840fbf0315732016343```
   - ```git reset --soft "HEAD@{1}"```
   - ```commit -m "1dcd88d2248d990a6dbeb840fbf0315732016343"```
-- Multiplas linhas na mensagem do commit:
+- Multiplas linhas na mensagem do commit.
   - ```
     git commit -m "this is
     > a line
