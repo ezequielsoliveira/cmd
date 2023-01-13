@@ -11,6 +11,8 @@ Lista de comando úteis.
  - ```git clone git@github.com:EzequielSOliveira/temp.git```
 - Excluir uma branch;
   - ```git branch --delete branch_name```
+- Mudar para uma branch que existe somente no repositório remoto (vai trazer ela para o local);
+  - ```git checkout -b branch_name origin/branch_name```
 - Restaurar o repositório a partir de um commit específico;
   - ```git reset --hard 1dcd88d2248d990a6dbeb840fbf0315732016343```
   - ```git reset --soft "HEAD@{1}"```
