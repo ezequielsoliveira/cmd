@@ -5,8 +5,8 @@ Lista de comando úteis.
 ## SSH KEYEGEN
 
 - Gerar chave RSA:
-  - ```ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -q -N "passphrase"```
-  - ```ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -q -N ""```
+  - ```ssh-keygen -t rsa -b 4096 -o -a 100 -f ~/.ssh/id_rsa -q -N "passphrase"```
+  - ```ssh-keygen -t rsa -b 4096 -o -a 100 -f ~/.ssh/id_rsa -q -N ""```
 
 ## GIT
 
