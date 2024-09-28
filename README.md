@@ -8,7 +8,11 @@ Lista de comando úteis.
   - ```git config user.name "Ezequiel da Silva Oliveira"```
   - ```git config user.email "95730033+EzequielSOliveira@users.noreply.github.com"```
 - Clonar repositório git;
- - ```git clone git@github.com:EzequielSOliveira/temp.git```
+  - ```git clone git@github.com:EzequielSOliveira/temp.git```
+- Excluir configurações de usuários do GIT pelo terminal no windows:
+  - ```Remove-Item "$env:userprofile\.gitconfig"``` (PowerShell)
+- Definir variáveis de ambiente do git no windows:
+  - ```[System.Environment]::SetEnvironmentVariable("PATH", [System.Environment]::GetEnvironmentVariable("PATH", [System.EnvironmentVariableTarget]::Machine) + ";C:\git\cmd;C:\git\bin", [System.EnvironmentVariableTarget]::Machine)``` (PowerShell [Administrador])
 - Excluir uma branch;
   - ```git branch --delete branch_name```
 - Mudar para uma branch que existe somente no repositório remoto (vai trazer ela para o local);
