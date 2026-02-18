@@ -11,7 +11,7 @@ Lista de comando úteis.
 ## GIT
 
 - Configurar usuário e email para commits no repositório;
-  - ```git config user.name "Ezequiel da Silva Oliveira"```
+  - ```git config user.name "Ezequiel Oliveira"```
   - ```git config user.email "95730033+EzequielSOliveira@users.noreply.github.com"```
 - Clonar repositório git;
   - ```git clone git@github.com:EzequielSOliveira/temp.git```
